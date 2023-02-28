@@ -1,0 +1,141 @@
+/* reset.css */
+/* Add your own styles to reset.css to reset default browser styles */
+:root{
+    background-color:gray
+
+
+
+
+
+}
+* {flex-wrap: wrap;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 0;
+  }
+  
+  /* style.css */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  header {
+    text-align: center;
+    background-color: grey;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+  }
+  
+  .page-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color:pink;
+  }
+  
+  main {
+    margin: 2rem auto;
+    max-width: 1200px;
+    width: 90%;
+  }
+  
+  .card-column {
+    margin-bottom: 2rem;
+    flex: 1;
+  }
+  
+  .code-card {
+    background-color: grey;
+    border: 3px dotted #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    transition: all 0.5s ease-in-out;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .code-card:hover {
+    box-shadow: 0px 0px 10px #ccc;
+    position: relative;
+    margin: -4rem 0 1.5rem 0;
+    padding: 0.5rem 1rem;
+    background-color: grey;
+
+
+}
+  
+  .card-header {
+    
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: violet;
+  }
+  
+  .card-body {
+    margin-bottom: 1rem;
+    
+  }
+  
+  .code-block {
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    font-family: Consolas, monospace;
+    margin-bottom: 1rem;
+    overflow: auto;
+    padding: 1rem;
+    background-image: linear-gradient(
+        rgba(154, 33, 158, 0.3) 0%,
+        rgba(241, 43, 248, 0.6) 100%
+      );
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+  
+  .column {
+    flex: 1,0,100;
+    flex-direction: column;
+  }
+  
+  .grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  
+  .linear-gradient-background {
+    background-image: linear-gradient(
+      rgba(237, 103, 241, 0.3) 0%,
+      rgba(205, 89, 209, 0.6) 100%
+    );
+  }
+  
+  .code-card .card-header {
+    border-radius: 8px;
+  }
+  
+  .code-card:hover,
+  .code-card:hover .card-header {
+    box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
+  }
+  
+  .card-header {
+    position: relative;
+    margin-top: -20px;
+  }
+  
+  footer {
+    background-color: grey;
+    padding: 1rem;
+    text-align: center;
+    color: violet;
+  }
+  
